@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lista de Contatos</title>
+<link rel="stylesheet" type="text/css" href="./main.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Contatos</h1>
+        <form id="Form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+            <button type="submit"><i class="fas fa-plus"></i> Cadastrar</button>
+        </form>
+
+        <table id="Table">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui serão inseridas as linhas da tabela -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
